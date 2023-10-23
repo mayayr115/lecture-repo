@@ -27,3 +27,4 @@ const nolaCoords = [33, 90, 'New Orleans']
 const printCoords = ([lat, long, city]) => {
   return `Latitude: ${lat}, Longitude: ${long}, City: ${city}`
 }
+console.log(printCoords(nolaCoords))
