@@ -53,10 +53,10 @@ const objs = [
 
 // console.log('Sorted people by age:', objs.sort((a,b) => a.age - b.age))
 
-// console.log('Sorted people by name:', objs.sort((a,b) => {
-//   if (a.name === b.name) return 0;
-//   return a.name > b.name ? 1 : -1;
-// }));
+console.log('Sorted people by name:', objs.sort((a,b) => {
+  if (a.name === b.name) return 0;
+  return a.name > b.name ? 1 : -1;
+}));
 
 //TODO
 const family = [
@@ -68,7 +68,7 @@ const family = [
 //sort arrow function: a = pre-object, b = post-object
 
 //sorts ACESENDING
-console.log(family.sort((a,b) => a.age - b.age))
+// console.log(family.sort((a,b) => a.age - b.age))
 
-//sorts DECESENDING
-console.log(family.sort((a,b) => b.age - a.age))
+// //sorts DECESENDING
+// console.log(family.sort((a,b) => b.age - a.age))
